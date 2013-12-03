@@ -7,7 +7,12 @@
 Welcome to your Riboli project documentation!
 =============================================
 
+.. warning::
+    This project is in pre alpha state. Anything can change from this point. 
+    You are welcome to contribute and improve this work.
 
+    * contact us at: contact@rilipa.com
+    * read more about honeypy: http://honeypy.github.io/honeypy/
 
 
 
