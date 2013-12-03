@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# riboli.policy documentation build configuration file, created by
+# honeypy.buildout v0.0.1-alpha documentation build configuration file, created by
 # sphinx-quickstart on Sat Aug 31 17:28:52 2013.
 #
 # This file is execfile()d with the current directory set to its containing dir.
@@ -42,7 +42,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'riboli.policy'
+project = u'honeypy.buildout v0.0.1-alpha'
 copyright = u'2013, Arno Rinker'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -169,7 +169,7 @@ html_static_path = ['.sphinx/_static']
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'riboli.policy.'
+htmlhelp_basename = 'honeypy.buildout v0.0.1-alpha.'
 
 
 # -- Options for LaTeX output --------------------------------------------------
@@ -188,7 +188,7 @@ latex_elements = {
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'riboli.policy.tex', u'riboli.policy Documentation',
+  ('index', 'honeypy.buildout v0.0.1-alpha.tex', u'honeypy.buildout v0.0.1-alpha Documentation',
    u'Arno Rinker', 'manual'),
 ]
 
@@ -218,7 +218,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'riboli.policy', u'riboli.policy Documentation',
+    ('index', 'honeypy.buildout v0.0.1-alpha', u'honeypy.buildout v0.0.1-alpha Documentation',
      [u'Arno Rinker'], 1)
 ]
 
@@ -232,8 +232,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'riboli.policy', u'riboli.policy Documentation',
-   u'Arno Rinker', 'riboli.policy', 'One line description of project.',
+  ('index', 'honeypy.buildout v0.0.1-alpha', u'honeypy.buildout v0.0.1-alpha Documentation',
+   u'Arno Rinker', 'honeypy.buildout v0.0.1-alpha', 'One line description of project.',
    'Miscellaneous'),
 ]
 
