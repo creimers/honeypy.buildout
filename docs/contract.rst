@@ -1,5 +1,5 @@
 =============================
-Honeypy Buildout Conventions
+honeypy.buildout conventions
 =============================
 
 This is a contract in the sense of a convention! It's a convetion *about* configuration

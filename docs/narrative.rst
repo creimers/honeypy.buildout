@@ -1,5 +1,5 @@
 =======================
-Narrative Documentation
+Narrative documentation
 =======================
 
 After a short introduction of **buildout's core principals**, you can start to

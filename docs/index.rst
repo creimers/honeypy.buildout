@@ -3,6 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+
 ====================================
 Buildout without cable spaghetti!
 ====================================
@@ -10,11 +11,33 @@ Buildout without cable spaghetti!
 **honeypy.buildout** provides well defined configuration patterns to get the most
 out of `zc.buildout. <http://buildout.readthedocs.org/en/latest/>`_
 
+
+.. warning::
+    This project is in **pre alpha state**. Anything can change from this point. 
+    You are welcome to contribute and improve this work.
+
+    * `Fork us on github! <https://github.com/honeypy/honeypy.buildout>`_
+    * `Contact us via mail! <contact@rilipa.com>`_
+    * `Read more about honeypy! <http://honeypy.github.io/honeypy/>`_
+
+
 **zc.buildout** is a real flexible, easy to use and extendable software configuration
 tool. It helps you to build small apps with a minimal need for configuration and
 the big ones, with many bells & whistles to configure, as well. 
 
-**But be aware of laziness!**
+
+------------------------------------
+Configuration is not configuration
+------------------------------------
+
+.. figure:: images/no_cable_spaghetti_blue.png
+   :alt: no cable spaghetti
+
+   But I'm just a soul whose intentions are good:
+   Oh Lord! Please don't let me be misunderstood! [#f1]_ [#f2]_
+
+
+**Be aware of laziness!**
 Buildout entraps you to quickly stitch your build stack togehter! That's great and 
 works good on small projects, but as if...
 
@@ -25,26 +48,43 @@ works good on small projects, but as if...
 
 you can run into one of the following troubles:
 
-1. You stitched arround and added here and there some extra configuration. Now you
-   have some hard to debug strange behaviour whilst trying to run buildout.
-2. You have extended your config file arsenal to get a real big application up and 
-   running. Now you are not shure what happens, if you unplug this red cable.
-3. You want to make a quick test of your friends new application to check out his 
-   innovative and revolutionary features. Now you are hanging around for hours, reengineering
-   the code to get this stubborn thing up on your machine.
-4. You got lost in configuration! 
+* You have extended your config file arsenal to get a real big application up and 
+  running. Now you are not shure what happens, if you unplug this red cable.
+* You stitched arround and added here and there some extra configuration. Now you
+  have some hard to debug strange behaviour whilst trying to run buildout.
+* You want to make a quick test of your friends new application to check out his 
+  innovative and revolutionary features. Now you are hanging around for hours, reengineering
+  the code to get this stubborn thing up on your machine.
+* Everything went well on the staging server, but now while you try to deploy 
+  your application on the production host, something goes wrong. After fixing it
+  manually, you let it run and leave the office - at four o'clock in the morning.
 
-.. figure:: images/no_cable_spaghetti_blue.png
-   :alt: no cable spaghetti
 
-   But I'm just a soul whose intentions are good:
-   Oh Lord! Please don't let me be misunderstood! [#f1]_ [#f2]_
+These troubles have one thing in common: **You got lost in configuration!**
+
+
+--------------------
+Project Target
+--------------------
+
+The **honeypy.buildout project** aims to provide a set of **best practices for 
+building modular and reliable configurations** on top of `zc.buildout. <http://buildout.readthedocs.org/en/latest/>`_
+
+Those configurations should be...
+
+* **easily scalable** - from small hosts up to large distributed systems,
+* **simply reusable** - the whole configurations as well as the modules, 
+* **freely shareable** - with your fellows or the open source community,
+* **effortlessly deployable** - on physical hosts, vm's, IAAS and PAAS.
 
 
 --------------------
 Table of contents
 --------------------
 
+If you want to develop with, contribute to or just learn more about **honeypy.buildout**, feel free to study this documentation. 
+
+If you have any **questions**, improvement **proposals** or just want to give **feedback**, please watch the `project's issue list <https://github.com/honeypy/honeypy.buildout/issues?milestone=&page=1&state=open>`_ or just `open an issue! <https://github.com/honeypy/honeypy.buildout/issues/new>`_
 
 .. toctree::
    :maxdepth: 2
