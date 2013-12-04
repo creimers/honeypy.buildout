@@ -41,12 +41,13 @@ you can run into one of the following troubles:
    Oh Lord! Please don't let me be misunderstood! [#f1]_ [#f2]_
 
 
---------
-Inhalt
---------
+--------------------
+Table of contents
+--------------------
 
 
 .. toctree::
+   :maxdepth: 2
 
    narrative
    contract

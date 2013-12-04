@@ -1,6 +1,6 @@
-===============
-The Contract
-===============
+=============================
+Honeypy Buildout Conventions
+=============================
 
 This is a contract in the sense of a convention! It's a convetion *about* configuration
 not *over* configuration. It lives in a state of contradiction as long as this difference
@@ -20,32 +20,147 @@ We want to encourage you to join this contract when using buildout, because...
 
 
 ------------------------------
-Only well formed config files 
+Available config files 
 ------------------------------
+
+[TODO] Lorem ipsum si dolor amet consecetur...
 
 
 environment.cfg
 ======================
 
+[TODO] Lorem ipsum si dolor amet consecetur...
+
 
 base.cfg
 ======================
+
+[TODO] Lorem ipsum si dolor amet consecetur...
 
 
 module.cfg
 ======================
 
-
-functions
-
-switches
-
-boxes
-
-cmmi boxes
-
-
+[TODO] Lorem ipsum si dolor amet consecetur...
 
 
 app.cfg
 ======================
+
+[TODO] Lorem ipsum si dolor amet consecetur...
+
+
+------------------------------
+Execution chain
+------------------------------
+
+Everything in the right order
+==============================
+
+[TODO] Lorem ipsum si dolor amet consecetur...
+
+
+------------------------------
+Module definition
+------------------------------
+
+Not every config file is a module
+==================================
+
+[TODO] Lorem ipsum si dolor amet consecetur...
+
+
+
+------------------------------
+Core modules
+------------------------------
+
+[TODO] Lorem ipsum si dolor amet consecetur...
+
+
+environment.cfg
+======================
+
+[TODO] Lorem ipsum si dolor amet consecetur...
+
+
+os_dependeny_checker.cfg
+======================
+
+[TODO] Lorem ipsum si dolor amet consecetur...
+
+
+directories.cfg
+======================
+
+[TODO] Lorem ipsum si dolor amet consecetur...
+
+
+egg_installer.cfg
+======================
+
+[TODO] Lorem ipsum si dolor amet consecetur...
+
+
+testing.cfg
+======================
+
+[TODO] Lorem ipsum si dolor amet consecetur...
+
+
+------------------------------
+Module classes 
+------------------------------
+
+
+installation boxes
+======================
+
+[TODO] Lorem ipsum si dolor amet consecetur...
+
+
+functional boxes
+======================
+
+[TODO] Lorem ipsum si dolor amet consecetur...
+
+
+switches
+======================
+
+[TODO] Lorem ipsum si dolor amet consecetur...
+
+
+patchbays
+======================
+
+[TODO] Lorem ipsum si dolor amet consecetur...
+
+
+------------------------------
+Module categories 
+------------------------------
+
+
+installation boxes
+======================
+
+[TODO] Lorem ipsum si dolor amet consecetur...
+
+
+functional boxes
+======================
+
+[TODO] Lorem ipsum si dolor amet consecetur...
+
+
+switches
+======================
+
+[TODO] Lorem ipsum si dolor amet consecetur...
+
+
+patchbays
+======================
+
+[TODO] Lorem ipsum si dolor amet consecetur...
