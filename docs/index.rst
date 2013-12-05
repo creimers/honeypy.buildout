@@ -4,6 +4,7 @@
    contain the root `toctree` directive.
 
 
+
 ====================================
 Buildout without cable spaghetti!
 ====================================
@@ -41,15 +42,13 @@ Configuration is not configuration
 Buildout entraps you to quickly stitch your build stack togehter! That's great and 
 works good on small projects, but as if...
 
-* your project **configuration scales up**,
 * you want to **reuse larger subconfigurations**, 
-* you want to **share your buildouts** with anybody or 
-* you want to **deploy different configurations** in different environments,...
+* you want to **share your buildouts** with anybody, 
+* you want to **deploy different configurations** in different environments or
+* your project **configuration scales up**,...
 
 you can run into one of the following troubles:
 
-* You have extended your config file arsenal to get a real big application up and 
-  running. Now you are not shure what happens, if you unplug this red cable.
 * You stitched arround and added here and there some extra configuration. Now you
   have some hard to debug strange behaviour whilst trying to run buildout.
 * You want to make a quick test of your friends new application to check out his 
@@ -58,7 +57,8 @@ you can run into one of the following troubles:
 * Everything went well on the staging server, but now while you try to deploy 
   your application on the production host, something goes wrong. After fixing it
   manually, you let it run and leave the office - at four o'clock in the morning.
-
+* You have extended your config file arsenal to get a real big application up and 
+  running. Now you are not shure what happens, if you unplug this red cable.
 
 These troubles have one thing in common: **You got lost in configuration!**
 
@@ -72,10 +72,10 @@ building modular and reliable configurations** on top of `zc.buildout. <http://b
 
 Those configurations should be...
 
-* **easily scalable** - from small hosts up to large distributed systems,
 * **simply reusable** - the whole configurations as well as the modules, 
 * **freely shareable** - with your fellows or the open source community,
-* **effortlessly deployable** - on physical hosts, vm's, IAAS and PAAS.
+* **effortlessly deployable** - on physical hosts, vm's, IAAS and PAAS,
+* **easily scalable** - from small hosts up to large distributed systems.
 
 
 --------------------
@@ -84,14 +84,16 @@ Table of contents
 
 If you want to develop with, contribute to or just learn more about **honeypy.buildout**, feel free to study this documentation. 
 
-If you have any **questions**, improvement **proposals** or just want to give **feedback**, please watch the `project's issue list <https://github.com/honeypy/honeypy.buildout/issues?milestone=&page=1&state=open>`_ or just `open an issue! <https://github.com/honeypy/honeypy.buildout/issues/new>`_
-
 .. toctree::
    :maxdepth: 2
 
    narrative
    contract
    tutorials
+
+If you have any **questions**, improvement **proposals** or just want to give **feedback**, please watch the project's `issue list <https://github.com/honeypy/honeypy.buildout/issues?milestone=&page=1&state=open>`_ , open an `issue! <https://github.com/honeypy/honeypy.buildout/issues/new>`_ or contact us via `mail! <contact@rilipa.com>`_
+
+
 
 
 .. rubric:: Footnotes
