@@ -14,8 +14,10 @@ out of `zc.buildout. <http://buildout.readthedocs.org/en/latest/>`_
 
 
 .. warning::
-    This project is in **pre alpha state**. Anything can change from this point. 
-    You are welcome to contribute and improve this work.
+    This project is in `pre alpha state. <http://en.wikipedia.org/wiki/Software_release_life_cycle>`_ Anything can change from this point. The `semantic version <http://semver.org/spec/v2.0.0.html>`_ of the next release will be: 0.0.1-alpha
+
+
+    **You are welcome to contribute and improve this work:**
 
     * `Fork us on github! <https://github.com/honeypy/honeypy.buildout>`_
     * `Contact us via mail! <contact@rilipa.com>`_
