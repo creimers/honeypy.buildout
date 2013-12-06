@@ -97,40 +97,46 @@ Available Components
 * webserver-nginx.cfg
 * ...
 
+
 ------------------------------
+Backbone 
+------------------------------
+
+
+
 Core 
-------------------------------
+==============================
 
 Cross-sectional functions which are used in every configuration. These config files are vital for the functionality of honeypy.buildout and must be included in every honeypy.buildout environment.cfg. 
 
 Anatomy
-===============================
+------------------------------
 
 [TODO] Lorem ipsum si dolor amet consecetur...
 
 
 Core Modules
-===============================
+------------------------------
 
 * base.cfg
 * dependencies.cfg
 * directories.cfg
 * egginstaller.cfg
 
-------------------------------
+
 Modules 
-------------------------------
+==============================
 
 Optional cross-sectional functions which are used in some configurations.
 
 Anatomy
-===============================
+------------------------------
 
 [TODO] Lorem ipsum si dolor amet consecetur...
 
 
 Optional Modules
-===============================
+------------------------------
 
 * debugging
 * documentation
