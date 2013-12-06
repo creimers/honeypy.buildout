@@ -6,7 +6,7 @@
 
 
 ====================================
-Buildout without cable spaghetti!
+honeypy.buildout- no more cable spaghetti!
 ====================================
 
 **honeypy.buildout** provides well defined configuration patterns to get the most
