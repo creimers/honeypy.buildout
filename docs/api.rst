@@ -18,6 +18,16 @@ app.cfg
 [TODO] Lorem ipsum si dolor amet consecetur...
 
 
+Anatomy
+===============================
+
+[TODO] Lorem ipsum si dolor amet consecetur...
+
+.. literalinclude:: ../app.cfg
+   :language: ini
+   :lines: 1-24
+
+
 ------------------------------
 Environments
 ------------------------------
@@ -26,11 +36,6 @@ Environments
 
 Hosting environments for the different scenarios in the software development and deployment process.
 
-Anatomy
-===============================
-
-[TODO] Lorem ipsum si dolor amet consecetur...
-
 
 Available Environments
 ===============================
@@ -38,6 +43,15 @@ Available Environments
 * development.cfg
 * staging.cfg
 * production.cfg
+
+
+Anatomy
+===============================
+
+[TODO] Lorem ipsum si dolor amet consecetur...
+
+.. literalinclude:: ../buildout/environments/development.cfg
+   :language: ini
 
 
 ------------------------------
@@ -50,12 +64,6 @@ Frameworks
 Python application and web-application frameworks.
 
 
-Anatomy
-===============================
-
-[TODO] Lorem ipsum si dolor amet consecetur...
-
-
 Available Frameworks
 ===============================
 
@@ -63,6 +71,16 @@ Available Frameworks
 * plone.cfg
 * pyramid.cfg
 * ...
+
+
+
+Anatomy
+===============================
+
+[TODO] Lorem ipsum si dolor amet consecetur...
+
+.. literalinclude:: ../buildout/frameworks/substanced.cfg
+   :language: ini
 
 
 
@@ -76,11 +94,6 @@ Stacks
 
 A stack is a combination of a framework and several components to bring the framework online.
 
-Anatomy
-===============================
-
-[TODO] Lorem ipsum si dolor amet consecetur...
-
 
 Available Stacks
 ===============================
@@ -90,6 +103,15 @@ Available Stacks
 * plone4.3_database-zeo_loadbalancer-nginx_cache-varnish_webserver-nginx.cfg
 * ...
 
+
+Anatomy
+===============================
+
+[TODO] Lorem ipsum si dolor amet consecetur...
+
+
+
+
 ------------------------------
 Components 
 ------------------------------
@@ -97,12 +119,6 @@ Components
 .. image:: images/component.png
 
 Server components like web server, proxies, databases, load balancers, caches etc., giving additional performance 
-
-Anatomy
-===============================
-
-[TODO] Lorem ipsum si dolor amet consecetur...
-
 
 Available Components
 ===============================
@@ -116,6 +132,14 @@ Available Components
 * webserver-apache.cfg
 * webserver-nginx.cfg
 * ...
+
+Anatomy
+===============================
+
+[TODO] Lorem ipsum si dolor amet consecetur...
+
+
+
 
 
 ------------------------------
@@ -131,11 +155,6 @@ Core
 
 Cross-sectional functions which are used in every configuration. These config files are vital for the functionality of honeypy.buildout and must be included in every honeypy.buildout environment.cfg. 
 
-Anatomy
-------------------------------
-
-[TODO] Lorem ipsum si dolor amet consecetur...
-
 
 Core Modules
 ------------------------------
@@ -146,18 +165,49 @@ Core Modules
 * egginstaller.cfg
 
 
+base.cfg
+------------------------------
+
+[TODO] Lorem ipsum si dolor amet consecetur...
+
+.. literalinclude:: ../buildout/core/base.cfg
+   :language: ini
+
+
+dependencies.cfg
+------------------------------
+
+[TODO] Lorem ipsum si dolor amet consecetur...
+
+.. literalinclude:: ../buildout/core/dependencies.cfg
+   :language: ini
+
+
+directories.cfg
+------------------------------
+
+[TODO] Lorem ipsum si dolor amet consecetur...
+
+.. literalinclude:: ../buildout/core/directories.cfg
+   :language: ini
+
+
+egginstaller.cfg
+------------------------------
+
+[TODO] Lorem ipsum si dolor amet consecetur...
+
+.. literalinclude:: ../buildout/core/egginstaller.cfg
+   :language: ini
+
+
+
 Modules 
 ==============================
 
 .. image:: images/module.png
 
 Optional cross-sectional functions which are used in some configurations.
-
-Anatomy
-------------------------------
-
-[TODO] Lorem ipsum si dolor amet consecetur...
-
 
 Optional Modules
 ------------------------------
@@ -166,6 +216,16 @@ Optional Modules
 * documentation
 * testing
 * ...
+
+
+Anatomy
+------------------------------
+
+[TODO] Lorem ipsum si dolor amet consecetur...
+
+.. literalinclude:: ../buildout/modules/documentation.cfg
+   :language: ini
+
 
 
 
