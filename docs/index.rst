@@ -90,7 +90,7 @@ If you want to develop with, contribute to or just learn more about **honeypy.bu
    :maxdepth: 2
 
    narrative
-   contract
+   api
    tutorials
 
 If you have any **questions**, improvement **proposals** or just want to give **feedback**, please watch the project's `issue list <https://github.com/honeypy/honeypy.buildout/issues?milestone=&page=1&state=open>`_ , open an `issue! <https://github.com/honeypy/honeypy.buildout/issues/new>`_ or contact us via `mail! <contact@rilipa.com>`_
