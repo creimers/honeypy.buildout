@@ -288,7 +288,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="0.70710678"
      inkscape:cx="572.80914"
-     inkscape:cy="339.02883"
+     inkscape:cy="282.46029"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -339,7 +339,10 @@
          sodipodi:role="line" /></text>
     <g
        id="g27995"
-       transform="matrix(0.79865777,0,0,0.79865777,52.79811,-235.56588)">
+       transform="matrix(0.79865777,0,0,0.79865777,52.79811,-235.56588)"
+       inkscape:export-filename="/home/arinker/Projekte/honeypy.buildout/docs/images/staging.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
       <g
          inkscape:corner7="2.6718929 : 0.083617982 : 0.65479997 : 1"
          inkscape:corner0="3.6093751 : 0.92853438 : 0 : 1"
@@ -871,7 +874,10 @@
     </g>
     <g
        id="g27837"
-       transform="matrix(0.79865777,0,0,0.79865777,101.22827,-233.91209)">
+       transform="matrix(0.79865777,0,0,0.79865777,101.22827,-233.91209)"
+       inkscape:export-filename="/home/arinker/Projekte/honeypy.buildout/docs/images/development.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
       <g
          sodipodi:type="inkscape:box3d"
          style="opacity:0.5;fill:#2980b9;fill-opacity:1;stroke:#000000;stroke-width:2.02630353;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
@@ -1315,7 +1321,10 @@
     </g>
     <g
        id="g15516"
-       transform="matrix(0.79865777,0,0,0.79865777,439.80256,394.67016)">
+       transform="matrix(0.79865777,0,0,0.79865777,439.80256,394.67016)"
+       inkscape:export-filename="/home/arinker/Projekte/honeypy.buildout/docs/images/production.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
       <g
          inkscape:corner7="2.6718929 : 0.083617982 : 0.65479997 : 1"
          inkscape:corner0="3.6093751 : 0.92853438 : 0 : 1"
@@ -1979,7 +1988,10 @@
     </g>
     <g
        id="g14525"
-       transform="matrix(0.79865778,0,0,0.79865778,-82.51924,394.67011)">
+       transform="matrix(0.79865778,0,0,0.79865778,-82.51924,394.67011)"
+       inkscape:export-filename="/home/arinker/Projekte/honeypy.buildout/docs/images/buildout.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
       <g
          sodipodi:type="inkscape:box3d"
          style="opacity:0.3;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.02630329;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
@@ -2643,7 +2655,10 @@
     </g>
     <g
        id="g13554"
-       transform="matrix(0.79865781,0,0,0.79865781,146.09925,100.65516)">
+       transform="matrix(0.79865781,0,0,0.79865781,146.09925,100.65516)"
+       inkscape:export-filename="/home/arinker/Projekte/honeypy.buildout/docs/images/module.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
       <g
          sodipodi:type="inkscape:box3d"
          style="opacity:0.3;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.02630353;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
@@ -3043,7 +3058,10 @@
     </g>
     <g
        id="g13749"
-       transform="matrix(0.79865779,0,0,0.79865779,148.17317,74.7507)">
+       transform="matrix(0.79865779,0,0,0.79865779,148.17317,74.7507)"
+       inkscape:export-filename="/home/arinker/Projekte/honeypy.buildout/docs/images/component.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
       <g
          inkscape:corner7="2.6718929 : 0.083617982 : 0.65479997 : 1"
          inkscape:corner0="3.6093751 : 0.92853438 : 0 : 1"
@@ -3487,7 +3505,10 @@
     </g>
     <g
        id="g13821"
-       transform="matrix(0.79865779,0,0,0.79865779,102.89938,74.11792)">
+       transform="matrix(0.79865779,0,0,0.79865779,102.89938,74.11792)"
+       inkscape:export-filename="/home/arinker/Projekte/honeypy.buildout/docs/images/stack.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
       <g
          id="g12591"
          transform="matrix(0.6179236,0,0,0.6179236,-42.68807,243.24677)">
@@ -4155,7 +4176,10 @@
     </g>
     <g
        id="g13929"
-       transform="matrix(0.79865779,0,0,0.79865779,58.1787,77.88564)">
+       transform="matrix(0.79865779,0,0,0.79865779,58.1787,77.88564)"
+       inkscape:export-filename="/home/arinker/Projekte/honeypy.buildout/docs/images/framework.png"
+       inkscape:export-xdpi="89.855293"
+       inkscape:export-ydpi="89.855293">
       <g
          sodipodi:type="inkscape:box3d"
          style="opacity:0.5;fill:#2980b9;fill-opacity:1;stroke:#000000;stroke-width:2.02630353;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
@@ -4555,7 +4579,10 @@
     </g>
     <g
        id="g13684"
-       transform="matrix(0.79865813,0,0,0.79865813,64.84419,106.93126)">
+       transform="matrix(0.79865813,0,0,0.79865813,64.84419,106.93126)"
+       inkscape:export-filename="/home/arinker/Projekte/honeypy.buildout/docs/images/backbone.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
       <g
          sodipodi:type="inkscape:box3d"
          style="opacity:0.3;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.02630258;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
@@ -4955,7 +4982,10 @@
     </g>
     <g
        id="g13619"
-       transform="matrix(0.79865781,0,0,0.79865781,106.04284,101.89458)">
+       transform="matrix(0.79865781,0,0,0.79865781,106.04284,101.89458)"
+       inkscape:export-filename="/home/arinker/Projekte/honeypy.buildout/docs/images/core.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
       <g
          sodipodi:type="inkscape:box3d"
          style="opacity:0.3;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.02630353;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
