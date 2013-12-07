@@ -2,30 +2,29 @@
 honeypy.buildout API
 =============================
 
+[TODO] Lorem ipsum si dolor amet consecetur...
 
 .. figure:: images/honeypy.buildout_API_overview.png
    :alt: no cable spaghetti
    :target: _static/honeypy.buildout_API_overview.pdf
 
-   But I'm just a soul whose intentions are good:
-   Oh Lord! Please don't let me be misunderstood! [#f1]_
+   The Big Picture. [#f1]_
 
 
 ------------------------------
-app.cfg 
+Application
 ------------------------------
 
-[TODO] Lorem ipsum si dolor amet consecetur...
+At the end of the day, all you want to do is to write useful and good looking applications. Normally you should not care to much about all the nuts and bolts between developing your application code and its secure and performant deliverance out of your notebook up to the internet. Your app and your domain should be sufficient to bring it up.
 
 
-Anatomy
+The main app.cfg file
 ===============================
 
-[TODO] Lorem ipsum si dolor amet consecetur...
+.. toctree::
+   :maxdepth: 2
 
-.. literalinclude:: ../app.cfg
-   :language: ini
-   :lines: 1-24
+   app.cfg
 
 
 ------------------------------
@@ -40,18 +39,10 @@ Hosting environments for the different scenarios in the software development and
 Available Environments
 ===============================
 
-* development.cfg
-* staging.cfg
-* production.cfg
+.. toctree::
+   :maxdepth: 2
 
-
-Anatomy
-===============================
-
-[TODO] Lorem ipsum si dolor amet consecetur...
-
-.. literalinclude:: ../buildout/environments/development.cfg
-   :language: ini
+   environments
 
 
 ------------------------------
@@ -67,10 +58,10 @@ Python application and web-application frameworks.
 Available Frameworks
 ===============================
 
-* zope.cfg
-* plone.cfg
-* pyramid.cfg
-* ...
+.. toctree::
+   :maxdepth: 2
+
+   frameworks
 
 
 
