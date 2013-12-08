@@ -17,6 +17,8 @@ src
 sdist
 develop-eggs
 .installed.cfg
+.versions
+
 lib
 lib64
 __pycache__
@@ -36,7 +38,6 @@ nosetests.xml
 .mr.developer.cfg
 .project
 .pydevproject
-
 
 PKG-INFO
 
