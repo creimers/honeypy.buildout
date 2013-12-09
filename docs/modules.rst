@@ -1,36 +1,35 @@
-==========================
-frameworks/
-==========================
+===================
+modules/
+===================
 
-.. image:: images/framework.png
-
-[TODO] Lorem ipsum si dolor amet consecetur...
-
---------------------------
-pyramid_1.5.cfg
---------------------------
+.. image:: images/module.png
 
 [TODO] Lorem ipsum si dolor amet consecetur...
 
-.. literalinclude:: ../development.cfg
-   :language: ini
-
 
 --------------------------
-staging.cfg
+debugging.cfg
 --------------------------
 
 [TODO] Lorem ipsum si dolor amet consecetur...
 
-.. literalinclude:: ../staging.cfg
-   :language: ini
-
 
 --------------------------
-production.cfg
+documentation.cfg
 --------------------------
 
 [TODO] Lorem ipsum si dolor amet consecetur...
 
-.. literalinclude:: ../production.cfg
-   :language: ini
+
+--------------------------
+testing.cfg
+--------------------------
+
+[TODO] Lorem ipsum si dolor amet consecetur...
+
+
+--------------------------
+backup.cfg
+--------------------------
+
+[TODO] Lorem ipsum si dolor amet consecetur...
