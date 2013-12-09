@@ -1,5 +1,5 @@
 ==========================
-Environments API
+environments/
 ==========================
 
 .. image:: images/buildout.png

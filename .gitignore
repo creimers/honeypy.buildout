@@ -17,7 +17,7 @@ src
 sdist
 develop-eggs
 .installed.cfg
-.versions
+versions
 
 lib
 lib64
