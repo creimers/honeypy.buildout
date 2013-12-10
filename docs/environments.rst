@@ -13,7 +13,7 @@ development.cfg
 
 [TODO] Lorem ipsum si dolor amet consecetur...
 
-.. literalinclude:: ../buildout/environments/development.cfg
+.. literalinclude:: ../development.cfg
    :language: ini
 
 
@@ -23,7 +23,7 @@ staging.cfg
 
 [TODO] Lorem ipsum si dolor amet consecetur...
 
-.. literalinclude:: ../buildout/environments/staging.cfg
+.. literalinclude:: ../staging.cfg
    :language: ini
 
 
@@ -33,5 +33,5 @@ production.cfg
 
 [TODO] Lorem ipsum si dolor amet consecetur...
 
-.. literalinclude:: ../buildout/environments/production.cfg
+.. literalinclude:: ../production.cfg
    :language: ini

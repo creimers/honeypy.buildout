@@ -102,7 +102,7 @@ Python application and web-application frameworks.
 
 
 ------------------------------
-Application API
+buildout.cfg
 ------------------------------
 
 At the end of the day, all you want to do is to write useful and good looking applications. Normally you should not care to much about all the nuts and bolts between developing your application code and its secure and performant deliverance out of your notebook up to the internet. Your app and your domain should be sufficient to bring it up.
@@ -114,7 +114,7 @@ The main app.cfg file
 .. toctree::
    :maxdepth: 3
 
-   app.cfg
+
 
 
 ------------------------------
