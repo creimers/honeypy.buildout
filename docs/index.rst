@@ -33,9 +33,9 @@ building modular and reliable configurations** on top of `zc.buildout. <http://b
 
 Those configurations should be...
 
-* **simply reusable** - the whole configurations as well as the modules, 
-* **freely shareable** - with your fellows or the open source community,
-* **effortlessly deployable** - on physical hosts, vm's, IAAS and PAAS,
+* **simply reusable** - all reasonable configurations should fit into a single library, 
+* **freely shareable** - if you know one honeypy.buildout, you know all of them,
+* **effortlessly deployable** - shall work anywhere: on physical hosts, vm's, IAAS and PAAS,
 * **easily scalable** - from small hosts up to large distributed systems.
 
 
@@ -43,20 +43,22 @@ Those configurations should be...
 Table of contents
 --------------------
 
-If you want to develop with, contribute to or just learn more about **honeypy.buildout**, feel free to study this documentation. 
+To get a better picture of honeypy.buildout read the `narrative documentation <narrative>`_ or `follow some basic tutorials. <tutorials>`_ 
+To **develop an application with honeypy.buildout** or to **contribute to honeypy.buildout** you should 
+`read the API documentation <api.html>`_ first. 
+
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
 
    narrative
    api
    tutorials
 
 
-
-To get a better picture of honeypy.buildout read the `narrative documentation <narrative>`_ or `follow some basic tutorials. <tutorials>`_ 
-To **develop an application with honeypy.buildout** or to **contribute to honeypy.buildout** you should 
-`read the API documentation <api.html>`_ first. 
+--------------------
+Contribution
+--------------------
 
 If you have any **questions**, improvement **proposals** or just want to give **feedback**, please watch the project's `issue list <https://github.com/honeypy/honeypy.buildout/issues?milestone=&page=1&state=open>`_ , open an `issue! <https://github.com/honeypy/honeypy.buildout/issues/new>`_ or contact us via `mail! <contact@rilipa.com>`_
 

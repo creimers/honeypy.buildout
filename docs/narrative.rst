@@ -10,13 +10,17 @@ After a short introduction of **buildout's core principals**, you can start to
 Why to use buildout?
 --------------------------------------------
 
-To configure and build your Python applications in a reproducible pythonic manner!
+`back to top <api.html>`_ --- 
+
+To **configure and build your Python applications** in a reproducible pythonic manner!
 
 **zc.buildout** is a real flexible, easy to use and extendable software configuration tool. It helps you to build small apps with a minimal need for configuration and the big ones, with many bells & whistles to configure, as well. 
 
 --------------------------------------------
 How does buildout work?
 --------------------------------------------
+
+`back to top <api.html>`_
 
 To go ahead with honeypy.buildout, you should first `learn some basics about buildout. <http://www.buildout.org/en/latest/>`_
 Without `understanding the buildout mechanism <https://pypi.python.org/pypi/zc.buildout/2.2.1>`_ itself, it's hard to understand the *why* and *how* of
@@ -29,7 +33,15 @@ buildout best practices.
 Limits of zc.buildout 
 --------------------------------------------
 
-**Be aware of laziness!**
+`back to top <api.html>`_
+
+Actually there are **no limits in terms of configurabilty and extendability** for buildout.
+What's **limited is the availability of well running buildouts** out there. 
+
+* The first reason is a lacking standardization of buildout structures and quality requirements. Thus, it's hard to compare one buildout project to another and buildouts tend to fail. 
+* The second reason is laziness, which leads to buildout projects which have to be reengineered elaborately to understand, fix or customize them.
+
+**So --- be aware of laziness!**
 Buildout entraps you to quickly stitch your build stack togehter! That's great and 
 works good on small projects, but as if...
 
@@ -56,6 +68,8 @@ These troubles have one thing in common: **You got lost in configuration!**
 --------------------------------------------
 Why honeypy.buildout?
 --------------------------------------------
+
+`back to top <api.html>`_
 
 Consider
 

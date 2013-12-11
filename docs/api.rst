@@ -4,11 +4,6 @@ honeypy.buildout API
 
 [TODO] Lorem ipsum si dolor amet consecetur...
 
-.. toctree::
-   :maxdepth: 3
-
-   api
-
 
 ------------------------------
 Overview
@@ -24,13 +19,12 @@ Overview
    Get the "Big Picture" of honeypy.buildout API and `click to watch as PDF! <_static/honeypy.buildout_API_overview.pdf>`_ [#f1]_
 
 
-
-
 -----------------
 buildout.cfg
 -----------------
 
-`back to top <api.html>`_
+.. image:: images/buildout.png
+
 
 The **buildout.cfg** contains the 
 
@@ -42,8 +36,6 @@ The **buildout.cfg** contains the
 
 Main Parameters
 ==================
-
-`back to top <api.html>`_
 
 .. literalinclude:: ../buildout.cfg
    :language: ini
@@ -71,7 +63,6 @@ find-links
 Environment and Framework Selectors
 ======================================
 
-`back to top <api.html>`_
 
 .. literalinclude:: ../buildout.cfg
    :language: ini
@@ -95,7 +86,6 @@ FRAMEWORK SELECTOR (extends and parts)
 Packages
 =============
 
-`back to top <api.html>`_
 
 .. literalinclude:: ../buildout.cfg
    :language: ini
@@ -122,90 +112,145 @@ test-eggs
 base.cfg
 ------------------------------
 
-`back to top <api.html>`_ --- 
 Cross-sectional functions which are used in every configuration. These config files are vital for the functionality of honeypy.buildout and must be included in every honeypy.buildout environment.cfg. 
 
-=============================== ===============================
-.. image:: images/core.png      .. toctree::
-                                   :maxdepth: 2
-
-                                   core
-=============================== ===============================
+.. image:: images/core.png      
 
 
 ------------------------------
 environments/
 ------------------------------
 
-`back to top <api.html>`_ --- 
-Hosting environments for the different scenarios in the software development and deployment process.
+Hosting environments for the different scenarios in the software development and deployment process. Because the differences between the environments are negligible (see the table below), the code is only explained once.
 
-=============================== ===============================
-.. image:: images/buildout.png  .. toctree::
-                                   :maxdepth: 2
++------------------------------------+------------------------------------+------------------------------------+
+| **development.cfg**                | **staging.cfg**                    | **production.cfg**                 |
++------------------------------------+------------------------------------+------------------------------------+
+| .. image:: images/development.png  | .. image:: images/staging.png      | .. image:: images/production.png   |
++------------------------------------+------------------------------------+------------------------------------+
+| **purpose:**                       | **purpose:**                       | **purpose:**                       |
++------------------------------------+------------------------------------+------------------------------------+
+| development                        | testing and demonstration          | secure operation                   |
++------------------------------------+------------------------------------+------------------------------------+
+| **runs on:**                       | **runs on:**                       | **runs on:**                       |
++------------------------------------+------------------------------------+------------------------------------+
+| laptop or desktop PC               | any inet accessible hardware       | any inet accessible hardware       |
++------------------------------------+------------------------------------+------------------------------------+
 
-                                   environments
-=============================== ===============================
+
+Host Parameters
+============================
+
+.. literalinclude:: ../development.cfg
+   :language: ini
+   :lines: 1-14
+
+Host
+--------------------
+
+domain
+    Lorem ipsum...
+host-name
+    Lorem ipsum...
+hots-ip
+    Lorem ipsum...
+user
+    Lorem ipsum...
+
+Application
+--------------------
+
+webaccess-admin
+    Lorem ipsum...
+webaccess-password
+    Lorem ipsum...
+
+Buildout Parameters
+--------------------
+
+log-level
+    Lorem ipsum...
+allow-hosts
+    Lorem ipsum...
+
+
+Module and Stack Selectors
+============================
+
+
+.. literalinclude:: ../development.cfg
+   :language: ini
+   :lines: 16-37
+
+
+MODULE SELECTOR (extends and parts)
+    **Switches the environment type** in which your buildout will install your app. To switch manually from  **'develop' default** to another environment, make sure your desired environment is **uncommented in 'extends' and 'parts'**. 
+
+    .. note::
+        **Only one environment has to be uncommented at a time!**
+
+
+STACK SELECTOR (extends and parts)
+    **Switches the framework** on which your app will be build on. To choose a framework, make sure your desired framework is **uncommented in 'extends' and 'parts'**. 
+
+    .. note::
+        **Not more than one framework can be choosen once at project start!** Obviously, a Plone application will not run under Django if you switch later on.
+
+
+Environment specific Sources
+============================
+
+.. literalinclude:: ../development.cfg
+   :language: ini
+   :lines: 41-
+
+
+[sources]
+    Lorem ipsum...
 
 
 ------------------------------
 modules/
 ------------------------------
 
-`back to top <api.html>`_ --- 
 Optional cross-sectional functions which are used in some configurations.
 
-=============================== ===============================
-.. image:: images/module.png    .. toctree::
-                                   :maxdepth: 2
-
-                                   modules
-=============================== ===============================
+.. image:: images/module.png
 
 
 ------------------------------
 stacks/
 ------------------------------
 
-`back to top <api.html>`_ --- 
 A stack is a combination of a framework and several components to bring the framework online.
 
-=============================== ===============================
-.. image:: images/stack.png     .. toctree::
-                                   :maxdepth: 2
-
-                                   stacks
-=============================== ===============================
+.. image:: images/stack.png 
 
 
 ------------------------------
 components/
 ------------------------------
 
-`back to top <api.html>`_ --- 
 Server components like web server, proxies, databases, load balancers, caches etc., giving additional performance 
 
-================================= ===============================
-.. image:: images/component.png   .. toctree::
-                                      :maxdepth: 2
-
-                                      components
-================================= ===============================
+.. image:: images/component.png
 
 
 ------------------------------
 frameworks/
 ------------------------------
 
-`back to top <api.html>`_ --- 
 Python application and web-application frameworks.
 
-================================= ===============================
-.. image:: images/framework.png   .. toctree::
-                                      :maxdepth: 2
+.. image:: images/framework.png 
 
-                                      frameworks
-================================= ===============================
+
+------------------------------
+versions.cfg
+------------------------------
+
+Python application and web-application frameworks.
+
 
 
 
