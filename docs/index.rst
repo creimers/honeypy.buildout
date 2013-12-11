@@ -9,8 +9,15 @@
 honeypy.buildout- no more cable spaghetti!
 ====================================
 
-**honeypy.buildout** provides well defined configuration patterns to get the most
-out of `zc.buildout. <http://buildout.readthedocs.org/en/latest/>`_
+.. figure:: images/no_cable_spaghetti.png
+   :alt: no cable spaghetti
+   :target: https://github.com/honeypy/honeypy.buildout
+
+|
+
+**honeypy.buildout** provides a well defined **library of configuration patterns** to get the most
+out of `zc.buildout. <http://buildout.readthedocs.org/en/latest/>`_ Forget about building and deploying
+your software! honeypy.buildout will do most of the job. Take your time to **develop great python web applications with Plone, Django or Pyramid**!
 
 
 .. warning::
