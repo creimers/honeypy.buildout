@@ -1,17 +1,17 @@
-=================
+-----------------
 buildout.cfg
-=================
+-----------------
 
 The **buildout.cfg** contains the 
 
-* **main information** of your application, 
+* **main parameters** of your application, 
 * the **environment and framework selectors** and 
 * your **app specific packages and sources**.
 
 
------------------
+
 Main Parameters
------------------
+==================
 
 .. literalinclude:: ../buildout.cfg
    :language: ini
@@ -35,9 +35,9 @@ allow-hosts
 find-links
     If you want to **download packages from unknown places**, put their URLs here and buildout will look up on this servers for your packages.
 
--------------------------------------
-Environment and Framework Selector
--------------------------------------
+
+Environment and Framework Selectors
+======================================
 
 .. literalinclude:: ../buildout.cfg
    :language: ini
@@ -47,45 +47,36 @@ Environment and Framework Selector
 ENVIRONMENT SELECTOR (extends and parts)
     **Switches the environment type** in which your buildout will install your app. To switch manually from  **'develop' default** to another environment, make sure your desired environment is **uncommented in 'extends' and 'parts'**. 
 
+    .. warning::
+        **Only one environment has to be uncommented at a time!**
 
 
-.. warning::
-    **Only one environment has to be uncommented at a time!**
+FRAMEWORK SELECTOR (extends and parts)
+    **Switches the framework** on which your app will be build on. To choose a framework, make sure your desired framework is **uncommented in 'extends' and 'parts'**. 
+
+    .. warning::
+        **Not more than one framework can be choosen once at project start!** Obviously, a Plone application will not run under Django if you switch later on.
 
 
-FRAMEWORK SELECTOR
-    Lorem ipsum...
-
-
------------------
 Packages
------------------
+=============
 
 .. literalinclude:: ../buildout.cfg
    :language: ini
    :lines: 31-
 
-[buildout]
-==================
 
 eggs
-    Lorem ipsum...
-
-|
+    Put arbitrary **python eggs** that you need for your application here. They will be installed by honeypy.buildout for you. 
 
 scripts
-    Lorem ipsum...
-
-|
+    If your python eggs contain **scripts you want to access via the bin/ directory**, you have to put them here. 
 
 test-eggs
     Lorem ipsum...
 
-
 [versions]
-==================
-
+    Lorem ipsum...
 
 [sources]
-==================
-
+    Lorem ipsum...
