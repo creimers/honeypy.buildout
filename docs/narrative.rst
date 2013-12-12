@@ -2,7 +2,19 @@
 Narrative documentation
 =======================
 
-After a short introduction of **buildout's core principals**, you can start to
+Let's start with a short story, to show you what buildout and honeypy.buildout are about quite plainly:
+
+ *"Imagine you wrote a nice python web application which you made to be liked by its users. You did't write something like a business software called "Slow And Painful" by its brave users. No! You wrote a piece of code which is more like a real catchy song. It will be loved by it's users and they listen to it on their iPods and stereo systems. Many users will become your fans. On your big open air world tour, these fans listen to your song, powered by huge amplifiers and speakers. Yes, your song became a hit meanwhile and you are a star!*
+
+ *Thanks to your song you made a meteoric career. But do you really think you became a star without the iPod, your music label, the roadies on your world tour and all the other helping hands and technology stuff? --- You wake up...*
+
+ *Back in the world of software this question remains. But application developers are no music stars and they often have to know their services and tools to get their songs (applications) up on stage to a certain degree. That has to change!*
+
+ *Software developers shall concentrate on writing excellent businnes logic and catchy user interfaces. The complexity of different configurations of hosts, web servers, load balancers, caches etc. shall be abstracted away from them. Developers should feel like stars, which can focus their mind on creativity and writing extraordinary songs (applications).*
+
+ *That's where zc.buildout and honeypy.buildout come into play. While zc.buildout does the most of the roadies (admins) job, the building and configuration of your software, honeypy.buildout brings operating experience to your roadies. So they always put the right plugs in and never cross the cables. Now you can lean back and write your next hit! You are sure about:  'your fans are already waiting for it!'*"
+
+Hope you got it! After a short introduction of **buildout's core principals**, you can start to
 **explore how honeypy.buildout uses and complements buildout**. 
 
 
@@ -10,7 +22,7 @@ After a short introduction of **buildout's core principals**, you can start to
 Why to use buildout?
 --------------------------------------------
 
-`back to top <api.html>`_ --- 
+`back to top <api.html>`_
 
 To **configure and build your Python applications** in a reproducible pythonic manner!
 
@@ -27,7 +39,7 @@ Without `understanding the buildout mechanism <https://pypi.python.org/pypi/zc.b
 buildout best practices. 
 
 .. note:: 
-	Please spend some time for `learning <http://www.buildout.org/en/latest/>`_ and `understanding <https://pypi.python.org/pypi/zc.buildout/2.2.1>`_ buildout. Then come back and read on!
+	**@ developer and contributor:** Please spend some time for `learning <http://www.buildout.org/en/latest/>`_ and `understanding <https://pypi.python.org/pypi/zc.buildout/2.2.1>`_ buildout. Then come back and read on!
 
 --------------------------------------------
 Limits of zc.buildout 
@@ -39,7 +51,7 @@ Actually there are **no limits in terms of configurabilty and extendability** fo
 What's **limited is the availability of well running buildouts** out there. 
 
 * The first reason is a lacking standardization of buildout structures and quality requirements. Thus, it's hard to compare one buildout project to another and buildouts tend to fail. 
-* The second reason is laziness, which leads to buildout projects which have to be reengineered elaborately to understand, fix or customize them.
+* The second reason is laziness, which leads to buildout projects which have to be reengineered elaborately to understand, fix or customize them. This applies especially to any third party developer and maintainer.
 
 **So --- be aware of laziness!**
 Buildout entraps you to quickly stitch your build stack togehter! That's great and 

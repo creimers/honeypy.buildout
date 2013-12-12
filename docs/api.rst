@@ -23,6 +23,8 @@ Overview
 buildout.cfg
 -----------------
 
+Thanks to the standardized `Web Server Gateway Interface <http://en.wikipedia.org/wiki/Web_Server_Gateway_Interface>`_ most of the configuration of a python web application can be abstracted away from the developers and operators (devops). 
+
 .. image:: images/buildout.png
 
 

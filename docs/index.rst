@@ -28,20 +28,25 @@ your software, honeypy.buildout will do most of the job. Take your time to **dev
 Project Target
 --------------------
 
-The **honeypy.buildout project** aims to provide a set of **best practices for 
-building modular and reliable configurations** on top of `zc.buildout. <http://buildout.readthedocs.org/en/latest/>`_
+`back to top <index.html>`_
+
+The **honeypy.buildout project** aims to provide a set of best practices for 
+building modular and reliable `configurations for the most popular python web frameworks <http://en.wikipedia.org/wiki/Category:Python_web_application_frameworks>`_ on top of `zc.buildout. <http://buildout.readthedocs.org/en/latest/>`_ They shall be `packed in a library <http://en.wikipedia.org/wiki/Library_%28computing%29>`_ to allow projects to be updated if additional
+or better configurations come in.
 
 Those configurations should be...
 
 * **simply reusable** - all reasonable configurations should fit into a single library, 
 * **freely shareable** - if you know one honeypy.buildout, you know all of them,
 * **effortlessly deployable** - shall work anywhere: on physical hosts, vm's, IAAS and PAAS,
-* **easily scalable** - from small hosts up to large distributed systems.
+* **easily scalable** - allows to grow from small hosts up to large distributed systems.
 
 
 --------------------
 Table of contents
 --------------------
+
+`back to top <index.html>`_
 
 To get a better picture of honeypy.buildout read the `narrative documentation <narrative>`_ or `follow some basic tutorials. <tutorials>`_ 
 To **develop an application with honeypy.buildout** or to **contribute to honeypy.buildout** you should 
@@ -59,6 +64,8 @@ To **develop an application with honeypy.buildout** or to **contribute to honeyp
 --------------------
 Contribution
 --------------------
+
+`back to top <index.html>`_
 
 If you have any **questions**, improvement **proposals** or just want to give **feedback**, please watch the project's `issue list <https://github.com/honeypy/honeypy.buildout/issues?milestone=&page=1&state=open>`_ , open an `issue! <https://github.com/honeypy/honeypy.buildout/issues/new>`_ or contact us via `mail! <contact@rilipa.com>`_
 
