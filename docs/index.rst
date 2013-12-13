@@ -82,3 +82,10 @@ If you have any **questions**, improvement **proposals** or just want to give **
 --------------------
 License
 --------------------
+
+This software is licensed under:
+
+GNU GENERAL PUBLIC LICENSE
+                       Version 3, 29 June 2007
+
+Read the `license file <license.html>`_
