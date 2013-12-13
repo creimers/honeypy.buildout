@@ -5,41 +5,27 @@ Tutorials
 [TODO] Lorem ipsum si dolor amet consecetur...
 
 ------------------------------
-Buildout Basics
+A Brief Introduction to Buildout
 ------------------------------
 
-[TODO] Lorem ipsum si dolor amet consecetur...
+by: `Brandon Rhodes <http://www.youtube.com/user/BrandonCraigRhodes?feature=watch>`_
 
-------------------------------
-Typical Buildout Adversities
-------------------------------
+.. raw:: html
 
-[TODO] Lorem ipsum si dolor amet consecetur...
+	<iframe width="690" height="388" src="//www.youtube.com/embed/HXvzzK9m2IA" frameborder="0" allowfullscreen></iframe>
 
-------------------------------
-Your first honeypy.buildout
-------------------------------
+|
 
-[TODO] Lorem ipsum si dolor amet consecetur...
+-----------------------------------------------------
+Reproducible Applications 
+-----------------------------------------------------
 
-------------------------------
-Deployment with honeypy
-------------------------------
+original title: **Reproducible installation of applications Zc Buildout**
 
-[TODO] Lorem ipsum si dolor amet consecetur...
+by: `Python Italia <http://www.youtube.com/user/PythonItalia?feature=watch>`_
 
-------------------------------
-Buildout a distributed system
-------------------------------
+.. raw:: html
+ 
+	<iframe width="690" height="388" src="//www.youtube.com/embed/29rzDcisVZQ" frameborder="0" allowfullscreen></iframe>
 
-[TODO] Lorem ipsum si dolor amet consecetur...
-
-------------------------------
-Write your own modules
-------------------------------
-
-[TODO] Lorem ipsum si dolor amet consecetur...
-
-------------------------------
-Configure a new environment
-------------------------------
+|

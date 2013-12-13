@@ -6,8 +6,10 @@
 
 
 ====================================
-honeypy.buildout- no more cable spaghetti!
+honeypy.buildout
 ====================================
+
+**Don't cross your cables!**
 
 .. figure:: images/no_cable_spaghetti.png
    :alt: no cable spaghetti
@@ -23,6 +25,11 @@ your software, honeypy.buildout will do most of the job. Take your time to **dev
 .. warning::
     This project is in `pre alpha state. <http://en.wikipedia.org/wiki/Software_release_life_cycle>`_ Anything can change from this point.
 
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+
+   index
 
 --------------------
 Project Target
@@ -71,3 +78,7 @@ If you have any **questions**, improvement **proposals** or just want to give **
 
     * `Contact us via mail! <contact@rilipa.com>`_
     * `Read more about honeypy! <http://honeypy.github.io/honeypy/>`_
+
+--------------------
+License
+--------------------

@@ -5,20 +5,20 @@ Narrative documentation
 Let's start with a short story, to show you what buildout and honeypy.buildout are about quite plainly.
 
 ------------------------
-Your app is like a song!
+Become a devop star!
 ------------------------
 
  *"Imagine you wrote a nice python web application which you made to be liked by its users. You didn't write something like a business software called "Slow And Painful" by its brave users. No! You wrote a piece of code which is more like a real catchy song. It will be loved by it's users and they listen to it on their iPods and stereo systems. Many users will become your fans. On your big open air world tour, these fans listen to your song, powered by huge amplifiers and speakers. Yes, your song became a hit meanwhile and you are a star!*
 
  *Thanks to your song you made a meteoric career. But do you really think you became a star without the iPod, your music label, the roadies on your world tour and all the other helping hands and technology stuff? --- You wake up...*
 
- *Back in the world of software this question remains. But application developers are no music stars and they often have to know their services and tools to get their songs (applications) up on stage. Not alway and anything in depth but often to a certain degree. That has to change!*
+ *Back in the world of software this question remains. But application developers are no music stars and they often have to know their services and tools to get their songs (applications) up on stage (that's why it's called staging!). Not always and not anything in depth but often to a certain degree. That has to change!*
 
  *Software developers shall concentrate on writing excellent businnes logic and catchy user interfaces. The complexity of different configurations of hosts, web servers, load balancers, caches etc. shall be abstracted away from them. Developers should feel like stars, which can focus their mind on creativity and writing extraordinary songs (applications).*
 
  *That's where zc.buildout and honeypy.buildout come into play. While zc.buildout does the most of the roadies (admins) job, the building and configuration of your software, honeypy.buildout brings operating experience to your roadies. So they always put the right plugs in and never cross the cables. Now you can lean back and write your next hit! You are sure about:  'your fans are already waiting for it!'*"
 
-Hope you got it! After a short introduction of **buildout's core principals**, you can start to
+Hope you've got it now! After a short introduction of **buildout's core principals**, you can start to
 **explore how honeypy.buildout uses and complements buildout**. 
 
 
