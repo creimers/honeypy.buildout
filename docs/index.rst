@@ -63,6 +63,7 @@ To **develop an application with honeypy.buildout** or to **contribute to honeyp
 .. toctree::
    :maxdepth: 3
 
+   getstarted
    narrative
    api
    tutorials

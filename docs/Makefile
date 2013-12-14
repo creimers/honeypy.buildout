@@ -3,7 +3,8 @@
 
 # You can set these variables from the command line.
 SPHINXOPTS    =
-SPHINXBUILD   = sphinx-build
+SPHINXBUILD   = ../bin/sphinx-build
+LIVERELOAD    = ../bin/livereload
 PAPER         =
 BUILDDIR      = sphinx
 
@@ -178,5 +179,5 @@ pseudoxml:
 	@echo "Build finished. The pseudo-XML files are in $(BUILDDIR)/pseudoxml."
 
 livehtml: html
-	livereload -b $(BUILDDIR)/html
+	$(LIVERELOAD) -b $(BUILDDIR)/html
 
