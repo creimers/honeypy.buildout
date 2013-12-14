@@ -99,66 +99,6 @@ Consider
 
 
 
-
---------------------------------------------
-Get started!
---------------------------------------------
-
-To cut a long story short - just follow the next steps to figure out, if **honeypy.buildout**
-is the right approach for you! 
-
-
-Start your reference engine 
-============================================
-
-[TODO] Lorem ipsum si dolor amet consecetur...
-
-with vagrant
-
-
-Configure it manual 
---------------------------------------------
-
-[TODO] Lorem ipsum si dolor amet consecetur...
-
-First `download zc.buildout v2.2.1 on pypi.org <https://pypi.python.org/pypi/zc.buildout/2.2.1>`_ or install it via pip
-
-::
-
-    pip install -Iv https://pypi.python.org/packages/source/z/zc.buildout/zc.buildout-2.2.1.tar.gz
-
-
-Use honeypy to get it up
---------------------------------------------
-
-[TODO] Lorem ipsum si dolor amet consecetur...
-
-
-Download a honeypy.buildout 
-============================================
-
-[TODO] Lorem ipsum si dolor amet consecetur...
-
-
-Configure it manual 
---------------------------------------------
-
-[TODO] Lorem ipsum si dolor amet consecetur...
-
-
-Use honeypy to get it up
---------------------------------------------
-
-[TODO] Lorem ipsum si dolor amet consecetur...
-
-
-
-Inspect the code and read the contract
-============================================
-
-[TODO] Lorem ipsum si dolor amet consecetur...
-
-
 .. rubric:: Footnotes
 
 .. [#f1] The left image was taken by `Kazuhisa OTSUBO. <http://www.flickr.com/people/82175587@N00>`_ the right by `Justin De La Ornellas  <http://www.flickr.com/people/85297901@N00>`_ Both are licensed under `CC BY 2.0. <http://creativecommons.org/licenses/by/2.0/deed.de>`_ and remixed by Arno Rinker.
