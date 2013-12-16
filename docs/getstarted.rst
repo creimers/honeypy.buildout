@@ -2,7 +2,7 @@
 Get started! 
 =======================
 
-
+Lorem ipsum ...
 
 
 
@@ -10,15 +10,28 @@ Get started!
 Initialize a new project
 --------------------------
 
+Lorem ipsum ...
 
+Manual installation
+============================
+
+Lorem ipsum ...
+
+
+
+Using virtualenvwrapper
+============================
+
+Lorem ipsum ...
 
 --------------------------
 Configure your project
 --------------------------
 
+Lorem ipsum ...
 
 buildout.cfg
-===============================
+============================
 
 app
 -------------------
