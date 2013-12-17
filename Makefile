@@ -31,11 +31,6 @@ remove:
 	rm -rf ../parts/ 
 	rm -rf ../etc/ 
 	rm -rf ../src/*recipe*/
-	rm -rf ../bootstrap.py 
-	rm -rf ../buildout.cfg 
-	rm -rf ../development.cfg 
-	rm -rf ../production.cfg 
-	rm -rf ../staging.cfg 
 	rm -rf ../.installed.cfg 
 	rm -rf ../.mr.developer.cfg
 	rm -rf ../Guardfile
