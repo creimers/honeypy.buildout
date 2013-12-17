@@ -43,10 +43,12 @@ class ChangeHandler(FileSystemEventHandler):
     def on_any_event(self, event):
         "If any file or folder is changed"
 
+        filenames = ['buildout.cfg', 'development.cfg', 'staging.cfg', 'production.cfg']
         if event.is_directory:
             return
-        if getfilenname(event.src_path) == 'buildout.cfg':
-            run_buildout()
+        for filename in filenames:
+            if getfilenname(event.src_path) == filename:
+                run_buildout()
 
 def main():
     """
