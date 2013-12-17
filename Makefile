@@ -30,6 +30,7 @@ remove:
 	rm -rf ../eggs/ 
 	rm -rf ../parts/ 
 	rm -rf ../etc/ 
+	rm -rf ../src/*recipe*/
 	rm -rf ../bootstrap.py 
 	rm -rf ../buildout.cfg 
 	rm -rf ../development.cfg 
@@ -37,3 +38,6 @@ remove:
 	rm -rf ../staging.cfg 
 	rm -rf ../.installed.cfg 
 	rm -rf ../.mr.developer.cfg
+	rm -rf ../Guardfile
+	rm -rf ../Makefile
+	rm -rf ../Watchfile
