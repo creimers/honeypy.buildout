@@ -10,27 +10,41 @@ import time
 
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
-from colorama import Fore, Back, Style, init
+from terminal import colorize
 
 BASEDIR = os.path.abspath(os.path.dirname(__file__))
 newpath, drop = os.path.split(BASEDIR)
 BASEDIR = newpath
 
+line = 70 * "-"
+
 def daemon_message():
-    line = 70 * "-"
-    print (Fore.YELLOW + line)
-    print "This is the honeypy.buildout.modules.livedevelop Watchfile"
-    print "This is the honeypy.buildout.modules.livedevelop Watchfile"
+    message = "This is a daemon to livedevelop your build process"
+    rows = [line,
+        "  This daemon rebuilds your software everytime you save a change ",
+        "  on buildout.cfg, development.cfg, staging.cfg or production.cfg. ",
+        line,
+        "  Push " + colorize(' CTRL+C ', 'black', background=True) + " to stop him.",
+        line
+        ]
+    print
     print line
+    print ' ' + colorize(' DAEMON running ', 'red', background=True) + (' %s' % message)
+    for row in rows:
+        print row
+    print
 
 def get_now():
     "Get the current date and time as a string"
+
     return datetime.datetime.now().strftime("%Y/%m/%d %H:%M:%S")
 
 def run_buildout():
     "Run buildout."
 
-    print >> sys.stderr, "Running buildout at %s" % get_now()
+    print line
+    print ' ' + colorize(' INFO ', 'yellow', background=True) + " Running buildout at %s" % get_now()
+    print line
     os.chdir(BASEDIR)
     subprocess.call(r'bin/buildout')
 
@@ -59,6 +73,7 @@ class ChangeHandler(FileSystemEventHandler):
         for filename in filenames:
             if getfilenname(event.src_path) == filename:
                 run_buildout()
+                daemon_message()
 
 def main():
     """

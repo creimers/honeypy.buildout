@@ -1,10 +1,11 @@
-# Makefile for Sphinx documentation
+# Makefile for honeypy.buildout
 #
 COMMAND_LIST =	help	\
 				build	\
-				update
+				update  \
+				update-undo
 
-include etc/*.Makefile
+-include etc/*.Makefile
 
 .PHONY: ${COMMAND_LIST}
 
@@ -16,15 +17,35 @@ help:
 	@echo "  -------------- --------------------------------------"
 	@echo "  build          to build or rebuild a project"
 	@echo "  update         to update and build a project"
+	@echo "  update-undo    to undo an update from update-backup"
+
 
 build:
 	bin/buildout
 
 update:
-	cp -i honeypy.buildout/templates/Makefile ./
-	cp -i honeypy.buildout/templates/bootstrap.py ./
-	cp -i honeypy.buildout/templates/buildout.cfg ./
-	cp -i honeypy.buildout/templates/development.cfg ./
-	cp -i honeypy.buildout/templates/staging.cfg ./
-	cp -i honeypy.buildout/templates/production.cfg ./
+	mkdir -p update-backup
+	cp -i Makefile update-backup/
+	cp -i bootstrap.py update-backup/
+	cp -i buildout.cfg update-backup/
+	cp -i development.cfg update-backup/
+	cp -i staging.cfg update-backup/
+	cp -i production.cfg update-backup/
+	cp -p honeypy.buildout/templates/Makefile ./
+	cp -p honeypy.buildout/templates/bootstrap.py ./
+	cp -p honeypy.buildout/templates/buildout.cfg ./
+	cp -p honeypy.buildout/templates/development.cfg ./
+	cp -p honeypy.buildout/templates/staging.cfg ./
+	cp -p honeypy.buildout/templates/production.cfg ./
+	bin/buildout
+
+update-undo:
+	cp -p update-backup/Makefile ./
+	cp -p update-backup/bootstrap.py ./
+	cp -p update-backup/buildout.cfg ./
+	cp -p update-backup/development.cfg ./
+	cp -p update-backup/staging.cfg ./
+	cp -p update-backup/production.cfg ./
+	rm -rf update-backup/
+
 	bin/buildout
