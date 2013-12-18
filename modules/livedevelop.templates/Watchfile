@@ -10,8 +10,18 @@ import time
 
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
+from colorama import Fore, Back, Style, init
 
 BASEDIR = os.path.abspath(os.path.dirname(__file__))
+newpath, drop = os.path.split(BASEDIR)
+BASEDIR = newpath
+
+def daemon_message():
+    line = 70 * "-"
+    print (Fore.YELLOW + line)
+    print "This is the honeypy.buildout.modules.livedevelop Watchfile"
+    print "This is the honeypy.buildout.modules.livedevelop Watchfile"
+    print line
 
 def get_now():
     "Get the current date and time as a string"
@@ -55,7 +65,7 @@ def main():
     Called when run as main.
     Look for changes to code and doc files.
     """
- 
+    daemon_message()
     event_handler = ChangeHandler()
     observer = Observer()
     observer.schedule(event_handler, BASEDIR, recursive=True)
@@ -69,3 +79,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
