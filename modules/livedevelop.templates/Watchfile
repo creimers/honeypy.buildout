@@ -46,7 +46,8 @@ def run_buildout():
     print ' ' + colorize(' INFO ', 'yellow', background=True) + " Running buildout at %s" % get_now()
     print line
     os.chdir(BASEDIR)
-    subprocess.call(r'bin/buildout')
+    command = 'bin/buildout -q'    
+    subprocess.call(command.split(), shell=False)
 
 def getfilenname(filename):
     "Get the filename without abspath."

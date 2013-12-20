@@ -47,5 +47,4 @@ update-undo:
 	cp -p update-backup/staging.cfg ./
 	cp -p update-backup/production.cfg ./
 	rm -rf update-backup/
-
 	bin/buildout
