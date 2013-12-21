@@ -17,19 +17,13 @@ honeypy.buildout
 
 |
 
-**honeypy.buildout** provides a well defined **library of configuration patterns** to get the most
+**honeypy.buildout** provides a **python web application build framework** to get the most
 out of `zc.buildout. <http://buildout.readthedocs.org/en/latest/>`_ Forget about building and deploying
-your software, honeypy.buildout will do most of the job. Take your time to **develop great python web applications with Plone, Django or Pyramid**!
+your software -- honeypy.buildout will do most of the job. Take your time to **develop great python web applications with Plone, Django or Pyramid**!
 
 
 .. warning::
     This project is in `pre alpha state. <http://en.wikipedia.org/wiki/Software_release_life_cycle>`_ Anything can change from this point.
-
-.. toctree::
-   :maxdepth: 2
-   :hidden:
-
-   index
 
 --------------------
 Project Target
@@ -37,9 +31,8 @@ Project Target
 
 `back to top <index.html>`_
 
-The **honeypy.buildout project** aims to provide a set of best practices for 
-building modular and reliable `configurations for the most popular python web frameworks <http://en.wikipedia.org/wiki/Category:Python_web_application_frameworks>`_ on top of `zc.buildout. <http://buildout.readthedocs.org/en/latest/>`_ They shall be `packed in a library <http://en.wikipedia.org/wiki/Library_%28computing%29>`_ to allow projects to be updated if additional
-or better configurations come in.
+The **honeypy.buildout project** aims to provide a framework containing tools and best practices to 
+build modular and reliable `configurations for the most popular python web frameworks <http://en.wikipedia.org/wiki/Category:Python_web_application_frameworks>`_ on top of `zc.buildout. <http://buildout.readthedocs.org/en/latest/>`_ They shall be packed in a framework to allow projects to be updated if additional or better configurations come in.
 
 Those configurations should be...
 
