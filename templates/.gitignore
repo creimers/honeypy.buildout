@@ -1,3 +1,5 @@
+honeypy.buildout
+
 *.py[cod]
 *.pyc
 
