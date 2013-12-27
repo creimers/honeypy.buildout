@@ -31,6 +31,8 @@ Project Target
 
 `back to top <index.html>`_
 
+To make Python powered web applications more popular. `See stats! <http://trends.builtwith.com/framework>`_
+
 The **honeypy.buildout project** aims to provide a framework containing tools and best practices to 
 build modular and reliable `configurations for the most popular python web frameworks <http://en.wikipedia.org/wiki/Category:Python_web_application_frameworks>`_ on top of `zc.buildout. <http://buildout.readthedocs.org/en/latest/>`_ They shall be packed in a framework to allow projects to be updated if additional or better configurations come in.
 
