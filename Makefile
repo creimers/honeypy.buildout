@@ -27,12 +27,8 @@ bootstrap:
 	cp -p templates/Makefile ../
 	cd ../ && git init
 	buildout -c bootstrap.cfg
-	rm -rf ../bin/
-	rm -rf ../eggs/
-	rm -rf ../.installed.cfg
 	cd .. && buildout
 	cd ../ && git flow init -fd && git add . && git commit -m 'initial commit'
-
 
 remove:
 	rm -rf ../bin/
