@@ -20,6 +20,7 @@ bootstrap:
 	cp -p templates/.gitignore ../
 	cp -p templates/Makefile ../
 	pip install zc.buildout
+	pip install -U setuptools
 	cp -p templates/bootstrap.py ../
 	cp -p templates/buildout.cfg ../
 	cp -p templates/bootstrap.cfg ../

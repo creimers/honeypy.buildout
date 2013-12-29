@@ -21,7 +21,7 @@ help:
 
 
 build:
-	bin/buildout
+	buildout
 
 update:
 	mkdir -p update-backup
@@ -37,7 +37,7 @@ update:
 	cp -p honeypy.buildout/templates/development.cfg ./
 	cp -p honeypy.buildout/templates/staging.cfg ./
 	cp -p honeypy.buildout/templates/production.cfg ./
-	bin/buildout
+	buildout
 
 update-undo:
 	cp -p update-backup/Makefile ./
@@ -47,4 +47,4 @@ update-undo:
 	cp -p update-backup/staging.cfg ./
 	cp -p update-backup/production.cfg ./
 	rm -rf update-backup/
-	bin/buildout
+	buildout
