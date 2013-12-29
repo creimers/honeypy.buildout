@@ -29,12 +29,14 @@ bootstrap:
 	cp -p templates/production.cfg ../
 	cp -p templates/versions.cfg ../
 	cd .. && python bootstrap.py && buildout -c bootstrap.cfg
+	rm -rf ../bin/
+	rm -rf ../eggs/
+	cd .. && buildout
 
 remove:
-	rm -rf ../bin/ 
-	rm -rf ../develop-eggs/ 
-	rm -rf ../parts/ 
+	rm -rf ../bin/
 	rm -rf ../etc/ 
+	rm -rf ../parts/
 	rm -rf ../src/*recipe*/
 	rm -rf ../.installed.cfg 
 	rm -rf ../.mr.developer.cfg
@@ -43,24 +45,26 @@ remove:
 	rm -rf ../Watchfile
 
 remove-all:
+	rm -rf ../.git/
 	rm -rf ../bin/ 
 	rm -rf ../develop-eggs/ 
-	rm -rf ../parts/
-	rm -rf ../eggs/ 
+	rm -rf ../docs/
+	rm -rf ../eggs/
 	rm -rf ../etc/ 
+	rm -rf ../parts/
 	rm -rf ../src/
-	rm -rf ../.git
+	rm -rf ../var/
 	rm -rf ../.gitignore
-	rm -rf ../.installed.cfg 
-	rm -rf ../.mr.developer.cfg
 	rm -rf ../Guardfile
 	rm -rf ../Makefile
 	rm -rf ../Watchfile
+	rm -rf ../.installed.cfg 
+	rm -rf ../.mr.developer.cfg
 	rm -rf ../bootstrap.py
 	rm -rf ../bootstrap.cfg
 	rm -rf ../buildout.cfg
 	rm -rf ../development.cfg
-	rm -rf ../staging.cfg
 	rm -rf ../production.cfg
+	rm -rf ../staging.cfg
 	rm -rf ../versions.cfg
 	rm -rf ../virtualenv.cfg
