@@ -22,15 +22,16 @@ bootstrap:
 	pip install zc.buildout
 	cp -p templates/bootstrap.py ../
 	cp -p templates/buildout.cfg ../
-	cp -p templates/virtualenv.cfg ../ 
-	cp -p templates/bootstrap.cfg ../ 
-	cp -p templates/development.cfg ../ 
-	cp -p templates/staging.cfg ../ 
+	cp -p templates/bootstrap.cfg ../
+	cp -p templates/virtualenv.cfg ../
+	cp -p templates/development.cfg ../
+	cp -p templates/staging.cfg ../
 	cp -p templates/production.cfg ../
 	cp -p templates/versions.cfg ../
 	cd .. && python bootstrap.py && buildout -c bootstrap.cfg
 	rm -rf ../bin/
 	rm -rf ../eggs/
+	rm -rf ../.installed.cfg
 	cd .. && buildout
 
 remove:
