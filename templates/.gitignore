@@ -19,7 +19,7 @@ src
 sdist
 develop-eggs
 .installed.cfg
-versions
+virtualenv.cfg
 
 lib
 lib64

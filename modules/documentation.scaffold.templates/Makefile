@@ -3,8 +3,8 @@
 
 # You can set these variables from the command line.
 SPHINXOPTS    =
-SPHINXBUILD   = ../bin/sphinx-build
-LIVERELOAD    = ../bin/livereload
+SPHINXBUILD   = sphinx-build
+LIVERELOAD    = livereload
 PAPER         =
 BUILDDIR      = sphinx
 
