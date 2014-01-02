@@ -25,10 +25,11 @@ bootstrap:
 	cp -p templates/versions.cfg ../
 	cp -p templates/.gitignore ../
 	cp -p templates/Makefile ../
-	cd ../ && git init
 	buildout -c bootstrap.cfg
-	cd .. && buildout
-	cd ../ && git flow init -fd && git add . && git commit -m 'initial commit'
+	rm -rf ./bin/
+	rm -rf ./develop-eggs/
+	rm -rf ./eggs/
+	rm -rf ./parts/
 
 remove:
 	rm -rf ../bin/
