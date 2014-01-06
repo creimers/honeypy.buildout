@@ -18,6 +18,7 @@ help:
 bootstrap:
 	pip install -U setuptools
 	pip install zc.buildout
+	cp -p templates/app.cfg ../
 	cp -p templates/buildout.cfg ../
 	cp -p templates/development.cfg ../
 	cp -p templates/staging.cfg ../
@@ -60,6 +61,7 @@ remove-all:
 	rm -rf ../.mr.developer.cfg
 	rm -rf ../bootstrap.py
 	rm -rf ../bootstrap.cfg
+	rm -rf ../app.cfg
 	rm -rf ../buildout.cfg
 	rm -rf ../development.cfg
 	rm -rf ../production.cfg

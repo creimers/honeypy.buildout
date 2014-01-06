@@ -1,7 +1,7 @@
 # ${buildout:app}
 
 upstream ${buildout:app} {
-    server ${ip:pserve}:${port:pserve};
+    server ${buildout:localhost}:${buildout:port};
 }
 
 server {
@@ -17,7 +17,7 @@ server {
 
     server_name ${buildout:domain};
 
-    access_log  ${dir:log}/${buildout:domain}-access.log;
+    access_log  ${buildout:directory}/var/log/${buildout:domain}-access.log;
 
     location / {
         proxy_set_header        Host $http_host;
@@ -43,7 +43,7 @@ server {
 
     location ^~ /error/ {
         internal;
-        root ${dir:public}/default;
+        root ${buildout:directory}/var/www/default;
     }
 
 }
