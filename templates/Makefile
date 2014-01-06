@@ -26,7 +26,6 @@ build:
 update:
 	mkdir -p update-backup
 	cp -i Makefile update-backup/
-	cp -i bootstrap.py update-backup/
 	cp -i buildout.cfg update-backup/
 	cp -i development.cfg update-backup/
 	cp -i staging.cfg update-backup/
@@ -41,7 +40,6 @@ update:
 
 update-undo:
 	cp -p update-backup/Makefile ./
-	cp -p update-backup/bootstrap.py ./
 	cp -p update-backup/buildout.cfg ./
 	cp -p update-backup/development.cfg ./
 	cp -p update-backup/staging.cfg ./

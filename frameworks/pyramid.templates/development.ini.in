@@ -11,8 +11,13 @@ pyramid.debug_authorization = false
 pyramid.debug_notfound = false
 pyramid.debug_routematch = false
 pyramid.default_locale_name = en
-pyramid.includes = 
+pyramid.includes =
     pyramid_debugtoolbar
+    pyramid_zodbconn
+    pyramid_tm
+
+tm.attempts = 3
+zodbconn.uri = file://%(here)s/Data.fs?connection_cache_size=20000
 
 # By default, the toolbar only appears for clients from IP addresses
 # '127.0.0.1' and '::1'.
@@ -33,7 +38,7 @@ port = 6543
 ###
 
 [loggers]
-keys = root, honeypy_demo
+keys = root, ${buildout:app}
 
 [handlers]
 keys = console
@@ -45,10 +50,10 @@ keys = generic
 level = INFO
 handlers = console
 
-[logger_honeypy_demo]
+[logger_${buildout:app}]
 level = DEBUG
 handlers =
-qualname = honeypy_demo
+qualname = ${buildout:app}
 
 [handler_console]
 class = StreamHandler

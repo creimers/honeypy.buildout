@@ -1,0 +1,49 @@
+# ${buildout:app}
+
+upstream ${buildout:app} {
+    server ${ip:pserve}:${port:pserve};
+}
+
+server {
+
+    # optional ssl configuration
+
+    listen 80;
+    #listen 443 ssl;
+    #ssl_certificate /path/to/ssl/pem_file;
+    #ssl_certificate_key /path/to/ssl/certificate_key;
+
+    # end of optional ssl configuration
+
+    server_name ${buildout:domain};
+
+    access_log  ${dir:log}/${buildout:domain}-access.log;
+
+    location / {
+        proxy_set_header        Host $http_host;
+        proxy_set_header        X-Real-IP $remote_addr;
+        proxy_set_header        X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header        X-Forwarded-Proto $scheme;
+
+        client_max_body_size    10m;
+        client_body_buffer_size 128k;
+        proxy_connect_timeout   60s;
+        proxy_send_timeout      90s;
+        proxy_read_timeout      90s;
+        proxy_buffering         off;
+        proxy_temp_file_write_size 64k;
+        proxy_pass http://${buildout:app};
+        proxy_redirect          off;
+    }
+
+    error_page 403 /error/403.html;
+    error_page 404 /error/404.html;
+    error_page 405 /error/405.html;
+    error_page 500 501 502 503 504 /error/5xx.html;
+
+    location ^~ /error/ {
+        internal;
+        root ${dir:public}/default;
+    }
+
+}
