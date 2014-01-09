@@ -1,6 +1,7 @@
 # Makefile for honeypy.buildout
 #
 COMMAND_LIST =	help	\
+				init	\
 				build	\
 				update  \
 				update-undo
@@ -15,10 +16,15 @@ help:
 	@echo "---------------------------------------------------------"
 	@echo "  COMMAND        ACTION"	
 	@echo "  -------------- --------------------------------------"
+	@echo "  init           to init an existing project"	
 	@echo "  build          to build or rebuild a project"
 	@echo "  update         to update and build a project"
 	@echo "  update-undo    to undo an update from update-backup"
 
+init:
+	pip install -U setuptools
+	pip install zc.buildout
+	git clone git@github.com:honeypy/honeypy.buildout.git
 
 build:
 	buildout
